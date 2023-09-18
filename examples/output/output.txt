@@ -1,0 +1,10 @@
+In the 'output.txt' file, each column corresponds to the following:
+1: Name of the polyhedron.
+2: Aspect ratio (R) of the polyhedron
+3-5: Eigenvalues of the moment of inertia tensor in ascending order.
+6-8: Eigenvector corresponding to the minimal eigenvalue of the moment of inertia tensor.
+9-11: Eigenvector corresponding to the intermediate eigenvalue of the moment of inertia tensor.
+12-14: Eigenvector corresponding to the maximal eigenvalue of the moment of inertia tensor.
+##########################################
+A15-CN12-2a 1.0017732 0.037740434 0.037807354 0.037807354 -0.57735027 -0.57735027 -0.57735027 0.81649658 -0.40824829 -0.40824829 0.25878059 -0.80004255 0.54126197 
+A15-CN14-6c 0.93824053 0.039698571 0.039698571 0.04231172 -0.70935721 -3.0967095e-07 0.70484917 -0.70484915 9.8714818e-10 -0.70935723 -2.1897154e-07 1 2.1897154e-07 
