@@ -85,19 +85,10 @@ def is_point_inside_convex_polyhedron(point, polyhedron_vertices):
     Returns:
     True if the point is inside the polyhedron, False otherwise.
     """
-    # Convert the polyhedron vertices into a numpy array
     polyhedron_points = np.array(polyhedron_vertices)
-
-    # Create a Delaunay triangulation of the polyhedron's vertices
     triangulation = Delaunay(polyhedron_points)
-
-    # Convert the test point into a numpy array
     test_point = np.array(point)
-
-    # Find the index of the simplex containing the test point
     simplex_index = triangulation.find_simplex(test_point)
-
-    # If the test point is inside the convex hull (a valid simplex index is returned), return True
     return simplex_index != -1
 
 def get_inside_points(vertex, grid_number):
