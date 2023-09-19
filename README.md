@@ -14,3 +14,5 @@ This code is designed to process files containing coordinates of the vertices of
 
 **Example Files:**
 An example of input files (vertices of WS cells corresponding to the two Wyckoff positions in the A15 phase) and output results are provided in the 'examples' folder.
+
+Code contributed by X.Y. and X.K.
