@@ -7,7 +7,7 @@ This code is designed to process files containing coordinates of the vertices of
 - `input_dir`: The directory containing all files ([Filename].txt) representing the vertices of the convex WS cell.
 - `output_dir`: The directory where output files will be saved.
 
-**Returns:**
+**Outputs:**
 - Coordinates of all internal points ([Filename].txt).
 - A .xyz file for molecular dynamics simulations ([Filename].xyz).
 - A file containing all the calculated results (output.txt).
